@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df8e5020e2f5876ac032b4fcae1043b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-v13:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/16c06ce1a398d57ddb1ecc5723699d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/14c1b94fe076e7f012dc7b8fdb5c72c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/77632735fdcd5e25a219fc830ce2f7b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/368fdaf6b9f4b6104bc78b2e91602caa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1267664b34c30ba82aee20d3645d5fb0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a2b4681616a12ebbdd73e13046134b7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b8dba6874f96ddff327c7801bb623df5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0d0b2dbeca08223613ea46827c766d94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d734d099da6485761aa4b27bb52cc24c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1d1c773a65f3e3fa5ecc23eac9445e21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/24fd787e8b0cd70fb4367d153bf3e1a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db2fbeabc8134ebb16659cde7cf2c6fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/edc8d1388accca9bd593082c963e650a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ecd32ba8d7bf2c1846c07a1cf1f5fda4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f94dd08ac655f4a046b1db2e9403bc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2de4eb8eb8f7347c527f5db1d4a43d11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24ae6cade871d3fd74e0ec1747df37f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/186f4cf89ffa505e3121545d06d749b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1f83b0d2d7c248a184e6c5251d3f732a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/848c0a28782a85e2de6d421fa5df0eb0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a5f404b03e3cccb1176c4f77e6ceb793/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/579bf6f216137aee89eec05b4c8d1887/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/831d44cbe5ca9cd42d914ef5d3fad34d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5f87da214436c9af64403a286f03d07a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b662764f7d63cb803a87417850b70cb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ae9fcbb541e86dac3754bf395531fa89/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c53abf747947330b5d7f2faf1bf1892e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e11e9c5daa2b08c38663850d6f25beb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/228937c3c644f67ef91a03782c2c5992/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:3:11-47
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:8:22-69
+application
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:10:5-50:19
+MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:22:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:14:13-39
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:13:13-45
+	android:icon
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:12:13-44
+	android:allowBackup
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:11:13-39
+	android:theme
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:15:13-44
+activity#com.example.fashkl.project.HomePage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:16:19-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.fashkl.project.AddBalancePage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:23:9-26:11
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:25:17-40
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:24:17-47
+activity#com.example.fashkl.project.BookTicketPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:27:9-30:11
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:29:17-40
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:28:17-47
+activity#com.example.fashkl.project.SelectPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:31:9-33:42
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:33:17-40
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:32:17-43
+activity#com.example.fashkl.project.LoginPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:34:9-37:11
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:36:17-38
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:35:17-42
+activity#com.example.fashkl.project.ViewTicketPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:38:9-41:11
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:40:17-46
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:39:17-47
+activity#com.example.fashkl.project.TicketDetailsPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:42:9-45:11
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:44:17-47
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:43:17-50
+activity#com.example.fashkl.project.RegisterPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:47:9-49:57
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:49:17-45
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:48:17-45
+uses-sdk
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df8e5020e2f5876ac032b4fcae1043b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df8e5020e2f5876ac032b4fcae1043b4/AndroidManifest.xml:20:5-44
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v13:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/16c06ce1a398d57ddb1ecc5723699d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/16c06ce1a398d57ddb1ecc5723699d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/14c1b94fe076e7f012dc7b8fdb5c72c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/14c1b94fe076e7f012dc7b8fdb5c72c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/77632735fdcd5e25a219fc830ce2f7b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/77632735fdcd5e25a219fc830ce2f7b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/368fdaf6b9f4b6104bc78b2e91602caa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/368fdaf6b9f4b6104bc78b2e91602caa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1267664b34c30ba82aee20d3645d5fb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1267664b34c30ba82aee20d3645d5fb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a2b4681616a12ebbdd73e13046134b7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a2b4681616a12ebbdd73e13046134b7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b8dba6874f96ddff327c7801bb623df5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b8dba6874f96ddff327c7801bb623df5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0d0b2dbeca08223613ea46827c766d94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0d0b2dbeca08223613ea46827c766d94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d734d099da6485761aa4b27bb52cc24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d734d099da6485761aa4b27bb52cc24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1d1c773a65f3e3fa5ecc23eac9445e21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1d1c773a65f3e3fa5ecc23eac9445e21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/24fd787e8b0cd70fb4367d153bf3e1a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/24fd787e8b0cd70fb4367d153bf3e1a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db2fbeabc8134ebb16659cde7cf2c6fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db2fbeabc8134ebb16659cde7cf2c6fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/edc8d1388accca9bd593082c963e650a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/edc8d1388accca9bd593082c963e650a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ecd32ba8d7bf2c1846c07a1cf1f5fda4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ecd32ba8d7bf2c1846c07a1cf1f5fda4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f94dd08ac655f4a046b1db2e9403bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f94dd08ac655f4a046b1db2e9403bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2de4eb8eb8f7347c527f5db1d4a43d11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2de4eb8eb8f7347c527f5db1d4a43d11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24ae6cade871d3fd74e0ec1747df37f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24ae6cade871d3fd74e0ec1747df37f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/186f4cf89ffa505e3121545d06d749b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/186f4cf89ffa505e3121545d06d749b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1f83b0d2d7c248a184e6c5251d3f732a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1f83b0d2d7c248a184e6c5251d3f732a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/848c0a28782a85e2de6d421fa5df0eb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/848c0a28782a85e2de6d421fa5df0eb0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a5f404b03e3cccb1176c4f77e6ceb793/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a5f404b03e3cccb1176c4f77e6ceb793/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/579bf6f216137aee89eec05b4c8d1887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/579bf6f216137aee89eec05b4c8d1887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/831d44cbe5ca9cd42d914ef5d3fad34d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/831d44cbe5ca9cd42d914ef5d3fad34d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5f87da214436c9af64403a286f03d07a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5f87da214436c9af64403a286f03d07a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b662764f7d63cb803a87417850b70cb1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b662764f7d63cb803a87417850b70cb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ae9fcbb541e86dac3754bf395531fa89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ae9fcbb541e86dac3754bf395531fa89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c53abf747947330b5d7f2faf1bf1892e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c53abf747947330b5d7f2faf1bf1892e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e11e9c5daa2b08c38663850d6f25beb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e11e9c5daa2b08c38663850d6f25beb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/228937c3c644f67ef91a03782c2c5992/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/228937c3c644f67ef91a03782c2c5992/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:7:5-43
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/asim/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/1e2485d1421cdecdee0a97272458c4c0/AndroidManifest.xml:26:22-63

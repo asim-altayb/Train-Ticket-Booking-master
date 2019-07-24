@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">train ticket</string>
+    <string name="title_activity_login_page">تسجيل الدخول</string>
+    <string name="SpinnerHeader">الخطوط</string>
+
+    <array name="options">
+        <item>--Select--</item>
+        <item>تفاصيلي</item>
+        <item>حجز رحله</item>
+        <item>رحلاتي</item>
+        <item>اضافه رصيد لبطاقتي</item>
+        <item>خروج</item>
+    </array>
+
+    <!--/////////////////////////////////-->
+    <string name="selectLine">--اختار الخط --</string>
+    <string name="selectStation">--اختار المحطه--</string>
+    <!--/////////////////////////////-->
+
+    <array name="classes">
+        <item>--Select--</item>
+        <item>فاخر</item>
+        <item>متوسط</item>
+        <item>عادي</item>
+    </array>
+    <array name="Stations">
+        <item>--Select--</item>
+        <item>الخرطوم</item>
+        <item>الحصاحيصا</item>
+        <item>مدني</item>
+        <item>عطبره</item>
+        <item>كسلا</item>
+        <item>بورتسودان</item>
+        <item>نيالا</item>
+        <item>الفاشر</item>
+        <item>دنقلا</item>
+
+    </array>
+    <!--///////////////////////////////////-->
+    <string name="hint_email">الايميل</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="hint_name">اسم المستخدم</string>
+    <string name="btn_login">دخول</string>
+    <string name="btn_register">تسجيل</string>
+    <string name="btn_link_to_register">ليس لديك حساب ؟ انضم الان .</string>
+    <string name="btn_link_to_login">لدي حساب بالفعل ! الدخول الى حسابي.</string>
+    <string name="welcome">مرحبا</string>
+    <string name="btn_logout">خروج</string>
+    <string name="name">الاسم الكامل</string>
+
+    <!--//////////////////////////////////////-->
+</resources>
