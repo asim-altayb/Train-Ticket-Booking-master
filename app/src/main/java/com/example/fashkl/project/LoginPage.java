@@ -33,7 +33,7 @@ public class LoginPage extends AppCompatActivity {
     private String[] loop;
     private ArrayAdapter<String> adapter;
     public Intent selectPageIntent, registerPageIntent;
-    String login_url="http://trainsd.rf.gd/php/login.php";
+    String login_url="https://tickectsudan.000webhostapp.com/php/login.php";
 
 
     private boolean isUserIdValid(String userId) {
@@ -70,7 +70,7 @@ public class LoginPage extends AppCompatActivity {
 
                 if (isUserIdValid(phonefld.getText().toString()) &&
                         isPasswordValid(passwordFld.getText().toString())) {
-
+login();
 
                 } else {
                     Toast.makeText(getApplicationContext(),
@@ -93,76 +93,80 @@ public class LoginPage extends AppCompatActivity {
 
     public void login()
     {
+        if(!HomePage.net)
+        {
+            Toast.makeText(this, "ماف نت شغل البيانات بلاي ", Toast.LENGTH_LONG).show();
+        }
+        else {
 
-        // Showing progress dialog at user registration time.
-      final ProgressDialog progressDialog=new ProgressDialog(LoginPage.this);
-        progressDialog.setMessage("Checking code ...");
-        progressDialog.show();
+            // Showing progress dialog at user registration time.
+            final ProgressDialog progressDialog = new ProgressDialog(LoginPage.this);
+            progressDialog.setMessage("Checking code ...");
+            progressDialog.show();
 
-        // Creating string request with post method.
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, login_url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String ServerResponse) {
-                        System.out.println("Main response: "+ServerResponse);
-                        // Hiding the progress dialog after all task complete.
-                        progressDialog.dismiss();
+            // Creating string request with post method.
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, login_url,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String ServerResponse) {
+                            System.out.println("Main response: " + ServerResponse);
+                            // Hiding the progress dialog after all task complete.
+                            progressDialog.dismiss();
 
-                        // Matching server responce message to our text.
-                        if (ServerResponse.startsWith("true")) {
-                           // Toast.makeText(LoginPage.this, "Successfully verified code ", Toast.LENGTH_SHORT).show();
+                            // Matching server responce message to our text.
+                            if (ServerResponse.startsWith("true")) {
+                                // Toast.makeText(LoginPage.this, "Successfully verified code ", Toast.LENGTH_SHORT).show();
 
-                            Intent intent = new Intent(LoginPage.this,HomePage.class);
-                            startActivity(intent);
-                        } else {
+                                Intent intent = new Intent(LoginPage.this, Grid_Home.class);
+                                startActivity(intent);
+                            } else {
 
-                            // Showing Echo Response Message Coming From Server.
-                            Toast.makeText(LoginPage.this, ServerResponse, Toast.LENGTH_LONG).show();
+                                // Showing Echo Response Message Coming From Server.
+                                Toast.makeText(LoginPage.this, ServerResponse, Toast.LENGTH_LONG).show();
+
+                            }
+
 
                         }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError volleyError) {
+
+                            // Hiding the progress dialog after all task complete.
+                            progressDialog.dismiss();
+                            System.out.println("Error res : " + volleyError.toString());
+                            // Showing error message if something goes wrong.
+                            Toast.makeText(LoginPage.this, volleyError.toString(), Toast.LENGTH_LONG).show();
+                        }
+                    }) {
+                @Override
+                protected Map<String, String> getParams() {
+
+                    // Creating Map String Params.
+                    Map<String, String> params = new HashMap<String, String>();
+
+                    // Adding All values to Params.
+                    // The firs argument should be same sa your MySQL database table columns.
+                    params.put("phone", phonefld.getText().toString());
+                    params.put("password", passwordFld.getText().toString());
 
 
-                    }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError volleyError) {
+                    return params;
+                }
+/*
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<String, String>();
+                    params.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240");
+                    params.put("Cookie", "__test=" + cookie.content + "; expires=Friday, January 1, 2038 at 1:55:55 AM; path=/");
 
-                        // Hiding the progress dialog after all task complete.
-                        progressDialog.dismiss();
-                        System.out.println("Error res : "+volleyError.toString());
-                        // Showing error message if something goes wrong.
-                        Toast.makeText(LoginPage.this, volleyError.toString(), Toast.LENGTH_LONG).show();
-                    }
-                }) {
-            @Override
-            protected Map<String, String> getParams() {
-
-                // Creating Map String Params.
-                Map<String, String> params = new HashMap<String, String>();
-
-                // Adding All values to Params.
-                // The firs argument should be same sa your MySQL database table columns.
-                params.put("phone", phonefld.getText().toString());
-                params.put("password", passwordFld.getText().toString());
-
-
-
-                return params;
-            }
-
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String, String>  params = new HashMap<String, String>();
-                params.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240");
-                params.put("Cookie", "__test="+cookie.content+"; expires=Friday, January 1, 2038 at 1:55:55 AM; path=/");
-
-                return params;
-            }
-        };
-        RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getApplication()));
-        requestQueue.add(stringRequest);
-
+                    return params;
+                }*/
+            };
+            RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getApplication()));
+            requestQueue.add(stringRequest);
+        }
 
     }//login
 

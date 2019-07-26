@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ando3" />
+        android:background="@color/colorPrimary" />
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -21,7 +21,7 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#9333"
+            android:background="@color/colorPrimary"
             android:orientation="vertical">
 
 

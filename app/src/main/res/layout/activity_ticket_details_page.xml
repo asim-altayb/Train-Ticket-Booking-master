@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#9333"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="0dp"
             android:orientation="vertical">
 
 
@@ -183,6 +183,68 @@
                     android:inputType="phone"
                     android:padding="5dp" />
             </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layoutDirection="rtl"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="السعر"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TKuserIdFld1"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/white"
+                    android:ems="10"
+                    android:padding="5dp"
+                    android:editable="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layoutDirection="rtl"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رقم المقعد"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TKuserIdFld2"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/white"
+                    android:ems="10"
+                    android:padding="5dp"
+                    android:editable="false" />
+            </TableRow>
+
+
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -201,6 +263,7 @@
                     android:textColor="@color/whiteColor"
                     android:textSize="20sp" />
             </TableRow>
+
 
         </TableLayout>
 

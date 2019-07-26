@@ -21,6 +21,7 @@ import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.wdullaer.materialdatetimepicker.time.RadialPickerLayout;
 import com.wdullaer.materialdatetimepicker.time.TimePickerDialog;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -50,10 +51,11 @@ public class BookTicketPage extends AppCompatActivity implements DatePickerDialo
     TimePickerDialog timePickerDialog;
     int Year, Month, Day ;
     TextView dateview,timeview;
-    String search_url="";
+    String search_url="https://tickectsudan.000webhostapp.com/php/get_tic.php";
     ticket_info ticket_info;
     Map<String, String> map = new HashMap<String, String>();
  RadioButton single,twice;
+    private JSONArray result;
 
 
 
@@ -248,7 +250,7 @@ dateview.setVisibility(View.VISIBLE);
 
                 return params;
             }
-
+/*
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String>  params = new HashMap<String, String>();
@@ -256,7 +258,7 @@ dateview.setVisibility(View.VISIBLE);
                 params.put("Cookie", "__test="+cookie.content+"; expires=Friday, January 1, 2038 at 1:55:55 AM; path=/");
 
                 return params;
-            }
+            }*/
         };
         RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getApplication()));
         requestQueue.add(stringRequest);
@@ -267,52 +269,57 @@ dateview.setVisibility(View.VISIBLE);
 
 
 
-    private void parseRespone(String response){
+    private void parseRespone(String response) {
 
+
+        JSONObject j = null;
         try {
-
-            JSONObject respon = new JSONObject(response);
-
-            Iterator<String> iter= respon.keys();
-//To get keys of an object
-
-            while (iter.hasNext())
-            {
-
-                String key = (String)iter.next();
-
-                //Object value = jsonobj.get(key);  //To use by object
-
-                String valueStr = respon.getString(key);
-                map.put(key, valueStr);
-
-
-                Log.i("Jsonparsing", "key= "+key + "\n Value=" +valueStr );
-
-                System.out.println("key= "+ key + "\n value= " + valueStr);
-
-
-            }
-            //save tickect info
-            ticket_info.setFrom_station(bkFromStationSpnr.getSelectedItem().toString());
-            ticket_info.setTo_station(bkToStationSpnr.getSelectedItem().toString());
-            ticket_info.setChair_no(map.get("chair_no"));
-            ticket_info.setClass_trip("");
-            ticket_info.setDate("");
-            ticket_info.setTime("");
-            ticket_info.setTrip_type("");
-            if(bkJournyTypeRB.getCheckedRadioButtonId()==R.id.BkreturnRBtn){
-                ticket_info.setPrice(Integer.toString (Integer.parseInt(map.get("price").toString())*2 ) ) ;
-            }
-            else{
-                ticket_info.setPrice(map.get("price"));
-            }
-
+            j = new JSONObject(response);
+            result = j.getJSONArray("result");
+            System.out.println(result.toString());
+            getinfo(result);
 
         } catch (JSONException e) {
             e.printStackTrace();
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
+    private void getinfo(JSONArray j){
+        for(int i=0;i<j.length();i++){
+            try {
+                JSONObject json = j.getJSONObject(i);
+                if(json.get("price")==0&&json.get("chair_no")==0&&json.get("go_time")==0){
+                    Toast.makeText(this, "لا توجد مقاعد فارغه في هذه الدرجه !", Toast.LENGTH_LONG).show();
+                }
+                else{
+                ticket_info.setDate(dateview.getText().toString());
+                ticket_info.setTime(json.getString("go_time"));
+                ticket_info.setChair_no(json.getString("chair_no"));
+                ticket_info.setClass_trip(bkclasssp.getSelectedItem().toString());
+                ticket_info.setFrom_station(bkFromStationSpnr.getSelectedItem().toString());
+                ticket_info.setTo_station(bkToStationSpnr.getSelectedItem().toString());
+                if(bkJournyTypeRB.getCheckedRadioButtonId()==R.id.BksingleRBtn){
+                ticket_info.setPrice(json.getString("price"));}
+                else{
+                    ticket_info.setPrice( String.valueOf(Integer.parseInt(json.getString("price").toString() )*2) );
+                }
+
+                Intent im =new Intent(BookTicketPage.this,TicketDetailsPage.class);
+                startActivity(im);
+                }
+                /*
+                * 'id_trip'=>0,
+                                            'number_train'=>0,
+                                             'time_arrival'=>0,
+                        in server                      'go_time'=>0,
+                                               'price'=>0,
+                                            	'chair_no'=>0*/
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
 }

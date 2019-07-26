@@ -9,9 +9,11 @@
         android:targetSdkVersion="28" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -51,6 +53,9 @@
         <activity
             android:name="com.example.fashkl.project.RegisterPage"
             android:label="Registration" />
+        <activity android:name="com.example.fashkl.project.stations" />
+        <activity android:name="com.example.fashkl.project.Profile" />
+        <activity android:name="com.example.fashkl.project.Grid_Home" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
