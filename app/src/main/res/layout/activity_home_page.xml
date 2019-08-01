@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fashkl.project.HomePage">
+    tools:context="com.example.fashkl.im.HomePage">
 
 
     <ImageView
@@ -58,6 +58,14 @@
             android:textColor="#FFFFFF"
             android:textSize="20dp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/hiden_login"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:background="#99FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
 
 </RelativeLayout>

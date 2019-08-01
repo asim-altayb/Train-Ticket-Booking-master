@@ -147,6 +147,10 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_fill_color
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1097,9 +1101,13 @@ drawable abc_vector_test
 drawable ando
 drawable ando2
 drawable ando3
+drawable at
+drawable at2
+drawable at3
 drawable avatar1
 drawable avatar2
 drawable avatar3
+drawable avatar4
 drawable avd_hide_password
 drawable avd_show_password
 drawable back1
@@ -1107,7 +1115,9 @@ drawable back2
 drawable back3
 drawable back4
 drawable background
+drawable background_radian
 drawable bicycles
+drawable circle_bold
 drawable date
 drawable date2
 drawable design_bottom_navigation_item_background
@@ -1116,6 +1126,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable error
 drawable ferriswheel
 drawable footsteps
 drawable histic
@@ -1148,11 +1159,14 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile
 drawable records
+drawable report
 drawable search
 drawable settings
 drawable shape
 drawable snack
+drawable splashlogo
 drawable stations
+drawable sudan_map
 drawable ticket
 drawable ticket2
 drawable time
@@ -1170,7 +1184,6 @@ id BKfromStationSpnr
 id BKtostationSpnr
 id BamountFld
 id BbalanceFld
-id BkbalabnceFld
 id BkjournyTypeRB
 id BkreturnRBtn
 id BksingleRBtn
@@ -1187,13 +1200,10 @@ id RpasswordFld
 id RsubmitBtn
 id SHIFT
 id SYM
-id TKclearBtn
-id TKdateFld
-id TKformFld
-id TKtoFld
-id TKtypeFld
+id TKsubmitBtn
 id TKuserIdFld
 id UserIDtextView
+id about_app
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1224,11 +1234,13 @@ id animator
 id async
 id auto
 id autoCompleteTextView
+id bacg
 id basic
 id beginning
 id blocking
 id bottom
 id btnLinkToRegisterScreen
+id btn_send
 id buttonPanel
 id cancel
 id cancel_action
@@ -1237,8 +1249,10 @@ id center_horizontal
 id center_vertical
 id center_view
 id chains
+id chairfld
 id checkbox
 id chronometer
+id classfld
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1257,6 +1271,7 @@ id date_picker_month
 id date_picker_month_and_day
 id date_picker_year
 id date_row
+id datefld
 id datetv
 id day_picker_selected_date_layout
 id decor_content_parent
@@ -1274,6 +1289,8 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id ermsg
+id error
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1283,8 +1300,16 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fromfld
 id ghost_view
 id group_divider
+id hiden_login
+id his_address
+id his_blood
+id his_gender
+id his_name
+id his_old
+id his_state
 id home
 id homeAsUp
 id hour_space
@@ -1293,6 +1318,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
 id info
 id italic
 id item_touch_helper_previous_elevation
@@ -1308,9 +1335,11 @@ id loginRegistBtn
 id loginRegistBtnd
 id login_Button
 id login_progress
+id logout
 id mainGrid
 id masked
 id media_actions
+id menuu
 id message
 id middle
 id mini
@@ -1318,6 +1347,7 @@ id minutes
 id minutes_space
 id money
 id month_text_view
+id msg
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
@@ -1341,6 +1371,7 @@ id passwordFld
 id passwordTxtView
 id phone
 id pin
+id pricefld
 id profile_card
 id progress_circular
 id progress_horizontal
@@ -1353,6 +1384,7 @@ id save_non_transition_alpha
 id save_scale_type
 id screen
 id scroll
+id scroll2
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
@@ -1408,28 +1440,29 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView20
+id textView24
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
 id time
-id time_chooser
 id time_display
 id time_display_background
 id time_picker
 id time_picker_dialog
 id time_picker_header
-id time_row
-id timetv
 id title
 id titleDividerNoCustom
 id title_template
+id tofld
 id top
 id topPanel
 id touch_outside
@@ -1502,7 +1535,9 @@ layout activity_home_page
 layout activity_login_page
 layout activity_profile
 layout activity_register_page
+layout activity_report
 layout activity_select_page
+layout activity_splash
 layout activity_stations
 layout activity_ticket_details_page
 layout activity_view_ticket_page
@@ -1551,6 +1586,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu setting
 mipmap ic_launcher
 string SpinnerHeader
 string abc_action_bar_home_description
@@ -2186,6 +2222,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_fill_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

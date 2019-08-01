@@ -16,6 +16,7 @@
 
 
         <ImageView
+            android:id="@+id/menuu"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:background="#fff"
@@ -83,7 +84,7 @@
                     android:text="حجوزاتي"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -122,7 +123,7 @@
                     android:text="حجز تذكره"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -164,7 +165,7 @@
                     android:text="شحن رصيد"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="12sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -203,7 +204,7 @@
                     android:text="المحطات"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -245,7 +246,7 @@
                     android:text="البروفايل"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -253,6 +254,44 @@
         </android.support.v7.widget.CardView>
 
         <!-- Column 2 -->
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/profile_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/report" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رفع شكوى"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
 
 
 

@@ -25,37 +25,39 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.fashkl.project.HomePage" >
+        <activity android:name="com.example.fashkl.im.HomePage" />
+        <activity
+            android:name="com.example.fashkl.im.AddBalancePage"
+            android:label="Booking" />
+        <activity
+            android:name="com.example.fashkl.im.BookTicketPage"
+            android:label="Booking" />
+        <activity
+            android:name="com.example.fashkl.im.SelectPage"
+            android:label="Details" />
+        <activity
+            android:name="com.example.fashkl.im.LoginPage"
+            android:label="Login" />
+        <activity
+            android:name="com.example.fashkl.im.ViewTicketPage"
+            android:label="Search Ticket" />
+        <activity
+            android:name="com.example.fashkl.im.TicketDetailsPage"
+            android:label="Ticket Details" />
+        <activity
+            android:name="com.example.fashkl.im.RegisterPage"
+            android:label="Registration" />
+        <activity android:name="com.example.fashkl.im.stations" />
+        <activity android:name="com.example.fashkl.im.Profile" />
+        <activity android:name="com.example.fashkl.im.Grid_Home" />
+        <activity android:name="com.example.fashkl.im.splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.fashkl.project.AddBalancePage"
-            android:label="Booking" />
-        <activity
-            android:name="com.example.fashkl.project.BookTicketPage"
-            android:label="Booking" />
-        <activity
-            android:name="com.example.fashkl.project.SelectPage"
-            android:label="Details" />
-        <activity
-            android:name="com.example.fashkl.project.LoginPage"
-            android:label="Login" />
-        <activity
-            android:name="com.example.fashkl.project.ViewTicketPage"
-            android:label="Search Ticket" />
-        <activity
-            android:name="com.example.fashkl.project.TicketDetailsPage"
-            android:label="Ticket Details" />
-        <activity
-            android:name="com.example.fashkl.project.RegisterPage"
-            android:label="Registration" />
-        <activity android:name="com.example.fashkl.project.stations" />
-        <activity android:name="com.example.fashkl.project.Profile" />
-        <activity android:name="com.example.fashkl.project.Grid_Home" />
+        <activity android:name="com.example.fashkl.im.report" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

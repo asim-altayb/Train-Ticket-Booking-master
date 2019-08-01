@@ -3,12 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fashkl.project.SelectPage">
+    android:background="@color/colorPrimary"
+    tools:context="com.example.fashkl.im.SelectPage">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/newyork" />
+
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -19,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
-            android:background="#9333"
+
             android:orientation="vertical">
 
 

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fashkl.project.SelectPage">
+    tools:context="com.example.fashkl.im.SelectPage">
 
     <ImageView
+        android:id="@+id/bacg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/back3" />
 
     <ScrollView
-        android:id="@+id/scrollView"
+        android:id="@+id/scroll2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -93,12 +95,12 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKtoFld"
+                    android:id="@+id/fromfld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
-                    android:ems="10"
                     android:editable="false"
+                    android:ems="10"
                     android:padding="5dp" />
             </TableRow>
 
@@ -120,12 +122,12 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKformFld"
+                    android:id="@+id/tofld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
-                    android:ems="10"
                     android:editable="false"
+                    android:ems="10"
                     android:padding="5dp" />
             </TableRow>
 
@@ -147,7 +149,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKtypeFld"
+                    android:id="@+id/classfld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
@@ -174,7 +176,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKdateFld"
+                    android:id="@+id/datefld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
@@ -205,13 +207,13 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKuserIdFld1"
+                    android:id="@+id/pricefld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
+                    android:editable="false"
                     android:ems="10"
-                    android:padding="5dp"
-                    android:editable="false" />
+                    android:padding="5dp" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -235,13 +237,13 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/TKuserIdFld2"
+                    android:id="@+id/chairfld"
                     android:layout_width="200dp"
                     android:layout_height="35dp"
                     android:background="@android:color/white"
+                    android:editable="false"
                     android:ems="10"
-                    android:padding="5dp"
-                    android:editable="false" />
+                    android:padding="5dp" />
             </TableRow>
 
 
@@ -255,11 +257,11 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/TKclearBtn"
+                    android:id="@+id/TKsubmitBtn"
                     android:layout_width="110dp"
                     android:layout_height="35dp"
                     android:background="@drawable/mybtn3"
-                    android:text="الغاء الرحله"
+                    android:text="تأكيد الرحله"
                     android:textColor="@color/whiteColor"
                     android:textSize="20sp" />
             </TableRow>
@@ -268,6 +270,26 @@
         </TableLayout>
 
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/error" />
+
+    <TextView
+        android:id="@+id/ermsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:text="لا تو جد حجوزات !" />
 
 </RelativeLayout>
 

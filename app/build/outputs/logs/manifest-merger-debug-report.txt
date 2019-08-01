@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asim/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/99e0c4905453621409fa6c1f6c661b7c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df8e5020e2f5876ac032b4fcae1043b4/AndroidManifest.xml:17:1-22:12
@@ -40,20 +40,21 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/asim/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e11e9c5daa2b08c38663850d6f25beb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/228937c3c644f67ef91a03782c2c5992/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/asim/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/1494eab831167fe756bd8b4e798a333a/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:3:5-41
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:2:11-69
@@ -78,7 +79,7 @@ ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/
 	android:name
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:10:22-64
 application
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:12:5-50:19
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:12:5-51:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asim/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/99e0c4905453621409fa6c1f6c661b7c/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asim/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/99e0c4905453621409fa6c1f6c661b7c/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e3aaf9a6b1ff2a2a97155cabeaf40ccb/AndroidManifest.xml:22:5-20
@@ -91,6 +92,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77d262f8d8ddeac78772fbed5edbf415/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/asim/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/1494eab831167fe756bd8b4e798a333a/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/asim/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/1494eab831167fe756bd8b4e798a333a/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/asim/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/192307073aaf159df43e177c357b75ec/AndroidManifest.xml:22:18-91
 	android:supportsRtl
@@ -103,74 +106,82 @@ MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transfor
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:17:9-40
-activity#com.example.fashkl.project.HomePage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:18:9-24:20
+activity#com.example.fashkl.im.HomePage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:18:9-46
 	android:name
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:18:19-43
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:19:13-23:29
-action#android.intent.action.MAIN
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:20:17-69
+activity#com.example.fashkl.im.AddBalancePage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:19:9-21:39
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:20:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:22:17-77
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:20:13-43
+activity#com.example.fashkl.im.BookTicketPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:22:9-24:39
+	android:label
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:22:27-74
-activity#com.example.fashkl.project.AddBalancePage
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:23:13-43
+activity#com.example.fashkl.im.SelectPage
 ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:25:9-27:39
 	android:label
 		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:26:13-43
-activity#com.example.fashkl.project.BookTicketPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:28:9-30:39
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:26:13-39
+activity#com.example.fashkl.im.LoginPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:28:9-30:37
 	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:30:13-34
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:29:13-43
-activity#com.example.fashkl.project.SelectPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:31:9-33:39
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:29:13-38
+activity#com.example.fashkl.im.ViewTicketPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:31:9-33:45
 	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:33:13-42
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:32:13-39
-activity#com.example.fashkl.project.LoginPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:34:9-36:37
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:32:13-43
+activity#com.example.fashkl.im.TicketDetailsPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:34:9-36:46
 	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:36:13-34
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:36:13-43
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:35:13-38
-activity#com.example.fashkl.project.ViewTicketPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:37:9-39:45
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:35:13-46
+activity#com.example.fashkl.im.RegisterPage
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:37:9-39:44
 	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:39:13-42
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:39:13-41
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:38:13-43
-activity#com.example.fashkl.project.TicketDetailsPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:40:9-42:46
-	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:42:13-43
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:38:13-41
+activity#com.example.fashkl.im.stations
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:40:9-46
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:41:13-46
-activity#com.example.fashkl.project.RegisterPage
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:43:9-45:44
-	android:label
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:45:13-41
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:40:19-43
+activity#com.example.fashkl.im.Profile
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:41:9-45
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:44:13-41
-activity#com.example.fashkl.project.stations
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:46:9-46
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:41:19-42
+activity#com.example.fashkl.im.Grid_Home
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:42:9-47
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:46:19-43
-activity#com.example.fashkl.project.Profile
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:47:9-44
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:42:19-44
+activity#com.example.fashkl.im.splash
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:43:9-49:20
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:47:19-42
-activity#com.example.fashkl.project.Grid_Home
-ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:48:13-60
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:43:19-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:48:23-48
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:47:27-74
+activity#com.example.fashkl.im.report
+ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:50:9-53
+	android:name
+		ADDED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml:50:19-41
 uses-sdk
 INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
@@ -247,6 +258,8 @@ MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transfor
 MERGED from [android.arch.core:runtime:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/228937c3c644f67ef91a03782c2c5992/AndroidManifest.xml:20:5-44
 MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.1] /home/asim/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/bc86c7fb7a9d5263fee0989444ffdbf2/AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/asim/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/1494eab831167fe756bd8b4e798a333a/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/asim/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/1494eab831167fe756bd8b4e798a333a/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 INJECTED from /home/asim/AndroidStudioProjects/Train-Ticket-Booking-master/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

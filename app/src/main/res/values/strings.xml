@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">train ticket</string>
+    <string name="app_name">احجز</string>
     <string name="title_activity_login_page">تسجيل الدخول</string>
     <string name="SpinnerHeader">الخطوط</string>
 
